@@ -10,7 +10,7 @@
 
 body {
     font-family: 'JannaLT-Regular', "Open Sans", 'droidarabickufi', serif;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .navbar .navbar-header .navbar-brand,

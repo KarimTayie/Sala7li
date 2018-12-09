@@ -199,24 +199,24 @@ $(document).ready(function () {
     
     // Loading Screen
     
-    $(window).on("load", function () {
+    // $(window).on("load", function () {
 
-        // Loading Elements
+    //     // Loading Elements
 
-        $(".loading-overlay .spinner").fadeOut(1000, function () {
+    //     $(".loading-overlay .spinner").fadeOut(1000, function () {
 
-            // Show The Scroll
+    //         // Show The Scroll
 
-            $("body").css("overflow", "auto");
+    //         $("body").css("overflow", "auto");
 
-            $(this).parent().fadeOut(1000, function () {
+    //         $(this).parent().fadeOut(1000, function () {
 
-                $(this).remove();
+    //             $(this).remove();
                 
-            });
+    //         });
             
-        });
+    //     });
         
-    });
+    // });
 
 });
